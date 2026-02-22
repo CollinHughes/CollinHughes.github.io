@@ -2,11 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Collin Hughes - Home</title>
 </head>
 
 <body>
-	<p>Hello, World!</p>
-	<img src="HelloWorld.png" alt="Hello, World! (As an image)">
+	<link rel="stylesheet" href="style.css">
+		<div id="header"></div>
+		<script>
+		  fetch("header.html").then(res => res.text()).then(data => {document.getElementById("header").innerHTML = data;});
+		</script>	
+	<p>Work in progress </p>
+	
 </body>
 </html>
