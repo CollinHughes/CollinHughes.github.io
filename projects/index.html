@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Collin Hughes - Projects</title>
+</head>
+
+<body>
+	<link rel="stylesheet" href="/style.css">
+	<div id="header"></div>
+	<script>
+		fetch("/header.html").then(res => res.text()).then(data => {document.getElementById("header").innerHTML = data;});
+	</script>	
+	<link rel="stylesheet" href="imageButton.css">
+	<a href="#" class="image-button">
+		<img src="mobileRobotAssemble.jpg" alt="Projects">
+		<div class="overlay-text">College Projects</div>
+	</a>
+	<a href="#" class="image-button">
+		<img src="FANUCArm.jpg" alt="Projects">
+		<div class="overlay-text">Work Projects</div>
+	</a>
+	
+	
+
+
+</body>
+</html>
