@@ -76,5 +76,21 @@ body {
   height: 1px;             
   background-color: #444444;  
   width: 95%;               /* line width */
-  
+}
+
+.info-block {
+	width: 95%;
+	margin-left: 2.5%;
+	text-align: center;
+	font-size: 26px;
+}
+
+.featured-projects {
+	background: #eeeeee;
+	width: 94%;
+	margin-left: 3%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 12px;
+	margin-top: 20px;
 }

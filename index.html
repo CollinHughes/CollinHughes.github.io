@@ -11,7 +11,23 @@
 		<script>
 		  fetch("header.html").then(res => res.text()).then(data => {document.getElementById("header").innerHTML = data;});
 		</script>	
-	<p>Work in progress </p>
+	<div class="featured-projects">
+		<link rel="stylesheet" href="/Projects/CollegeProjects/CollegeProjects.css">
+		<div class="info-block">Featured Projects</div>
+
+		<a href="#" class="image-button image-button-3">
+			<img src="/Projects/CollegeProjects/IEEEBot.jpg" alt="Projects">
+			<div class="overlay-text">Senior Design IEEE SouthEastCon <br>(in progress)</div>
+		</a>
+		<a href="#" class="image-button image-button-3">
+			<img src="/Projects/mobileRobotAssemble.jpg" alt="Projects">
+			<div class="overlay-text">Autonomous Control Bot <br>(in progress)</div>
+		</a>
+		<a href="#" class="image-button image-button-3">
+			<img src="/Projects/CollegeProjects/WaterDispenserBoard.jpg" alt="Projects">
+			<div class="overlay-text">Automatic Water Dispenser</div>
+		</a>
+	</div>
 	
 </body>
 </html>
